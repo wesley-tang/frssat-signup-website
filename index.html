@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FR SS Art Trade Sign-up</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link
+      rel="icon"
+      href="https://media.discordapp.net/attachments/416523883651530752/777827729395548200/FRSSAT2020_Banner1.png?width=960&height=584"
+    />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Sign up for the Flight Rising Secret Santa Art Trade 2020 here. Note we are not endorsed nor affiliated with Flight Rising."
+    />
+  </head>
+  <body>
+    <section id="welcome">
+      <div class="row justify-content-center">
+        <img
+          class="row justify-content-center"
+          src="https://media.discordapp.net/attachments/416523883651530752/777827729395548200/FRSSAT2020_Banner1.png?width=960&height=584"
+        />
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>
+          Welcome to the Sign-up Site for
+          <strong>Flight Rising Secret Santa Art Trade 2020!</strong>
+        </h1>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <p>
+          This site is designed to guide you through the sign up process before
+          providing you with the post to copy paste onto the FR forums!
+          <br /><br />
+          Don't know what that is? Find out in our
+          <a href="https://www1.flightrising.com/forums/cc/2928938"
+            >official forum thread</a
+          >. For more details on sign-up, refer to the
+          <a
+            href="https://www1.flightrising.com/forums/cc/2928940"
+            >sign-up thread</a
+          >. <strong>Sign-ups close November 29th at rolllover.</strong><br /><br />
+          Use of this site is not required to sign up. No personal data is
+          collected or stored. We are neither affiliated with nor endorsed by
+          Stormlight Workshop LLC.
+        </p>
+      </div>
+      <br />
+      <div class="row justify-content-center">
+        <button
+          type="button"
+          class="btn btn-primary"
+          id="startBtn"
+          style="margin-bottom: 2%;"
+        >
+          Let's Get Started!
+        </button>
+      </div>
+    </section>
+
+    <section id="userAndPassForm">
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>What is your Flight Rising Username and ID number?</h1>
+      </div>
+      <div class="container-fluid">
+        <p align="center">
+          We need your Username and ID to identify you and contact you
+          throughout the event!
+          <a data-toggle="modal" href="#userInfo" class="button">Help?</a>
+        </p>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <form class="row justify-content-center" style="max-width: 970px;">
+          <div class="row container justify-content-center">
+            <div class="col">
+              <input
+                type="text"
+                id="username"
+                name="username"
+                class="form-control"
+                placeholder="Username"
+              />
+            </div>
+            <h2>#</h2>
+            <div class="col-4">
+              <input
+                type="number"
+                id="userId"
+                name="userId"
+                class="form-control"
+                placeholder="123456"
+              />
+            </div>
+          </div>
+          <br />
+          <div
+            class="row navBtns container justify-content-center"
+            style="max-width: 970px;"
+          >
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-danger"
+                style="visibility: hidden;"
+              >
+                Back
+              </button>
+            </div>
+            <div class="col my-auto">
+              1/7
+            </div>
+            <div class="d-flex justify-content-end">
+              <button
+                type="button"
+                class="btn btn-success"
+                id="submitUserAndPassForm"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="drawPrefRankForm">
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>Please rank your <strong>drawing preferences</strong>.</h1>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <p align="left">
+          We will attempt to match your MOST PREFERED foremost, and chances are
+          this is the one that you will get. You will NOT match with what you
+          choose not to draw.<br />If you have multiple categories you do not
+          want to draw/receive for, please rank them lower than your preferred
+          categories. It it highly unlikely that you will be placed with your
+          third choice. If you can specifically only draw/receive for only ONE
+          category, please notify us and we will take note of it.<br />This
+          determines what art you wish to <strong>DRAW</strong>. <br /><a
+            data-toggle="modal"
+            href="#rankInfo"
+            class="button"
+            >Help?</a
+          >
+          <br /><a data-toggle="modal" href="#dragInfo" class="button"
+            >What's FR Dragons?</a
+          >
+          <br /><a data-toggle="modal" href="#humanoidInfo" class="button"
+            >What's Human/Gijinka?</a
+          >
+          <br /><a data-toggle="modal" href="#anthroInfo" class="button"
+            >What's Anthro?</a
+          >
+          <br /><a data-toggle="modal" href="#nonDragInfo" class="button"
+            >What's Non-FR Ferals?</a
+          >
+        </p>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <form class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-md-25">
+              <label for="country"
+                >I <strong>most</strong> prefer: &nbsp;</label
+              >
+            </div>
+            <div class="col-md-75">
+              <select id="drawHighPref" name="drawHighPref">
+                <option value="No Preference" selected="selected"
+                  >No Preference</option
+                >
+                <option value="FR Dragons">FR Dragons</option>
+                <option value="Human/Gijinka">Human/Gijinka</option>
+                <option value="Anthro">Anthro</option>
+                <option value="Non-FR Ferals">Non-FR Ferals</option>
+              </select>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-25">
+              <label for="country"
+                >I prefer: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label
+              >
+            </div>
+            <div class="col-md-75">
+              <select id="drawMedPref" name="drawMedPref">
+                <option value="No Preference" selected="selected"
+                  >No Preference</option
+                >
+                <option value="FR Dragons">FR Dragons</option>
+                <option value="Human/Gijinka">Human/Gijinka</option>
+                <option value="Anthro">Anthro</option>
+                <option value="Non-FR Ferals">Non-FR Ferals</option>
+              </select>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-25">
+              <label for="country"
+                >I <strong>least</strong> prefer: &nbsp;</label
+              >
+            </div>
+            <div class="col-md-75">
+              <select id="drawLowPref" name="drawLowPref">
+                <option value="No Preference" selected="selected"
+                  >No Preference</option
+                >
+                <option value="FR Dragons">FR Dragons</option>
+                <option value="Human/Gijinka">Human/Gijinka</option>
+                <option value="Anthro">Anthro</option>
+                <option value="Non-FR Ferals">Non-FR Ferals</option>
+              </select>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-25">
+              <label for="country">I do not want: &nbsp;</label>
+            </div>
+            <div class="col-md-75">
+              <select id="drawNoAllow" name="drawNoAllow">
+                <option value="No Preference" selected="selected"
+                  >No Preference</option
+                >
+                <option value="FR Dragons">FR Dragons</option>
+                <option value="Human/Gijinka">Human/Gijinka</option>
+                <option value="Anthro">Anthro</option>
+                <option value="Non-FR Ferals">Non-FR Ferals</option>
+              </select>
+            </div>
+          </div>
+          <br />
+          <div
+            class="d-flex justify-content-between container navBtns"
+            style="max-width: 970px;"
+          >
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-danger"
+                id="returnToUserAndId"
+              >
+                Back
+              </button>
+            </div>
+            <div class="col my-auto">
+              2/7
+            </div>
+            <div class="d-flex justify-content-end">
+              <button
+                type="button"
+                class="btn btn-success justify-content-end toggleDrawPrefForm"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="recPrefRankForm">
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>Please rank your <strong>receiving preferences</strong>.</h1>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <p align="left">
+          We will attempt to match your MOST PREFERED foremost, and chances are
+          this is the one that you will get. You will NOT match with what you
+          choose not to receive.<br />If you have multiple categories you do not
+          want to draw/receive for, please rank them lower than your preferred
+          categories. It it highly unlikely that you will be placed with your
+          third choice. If you can specifically only draw/receive for only ONE
+          category, please notify us and we will take note of it.<br />This
+          determines what art you will <strong>GET</strong>. <br /><a
+            data-toggle="modal"
+            href="#rankInfo"
+            class="button"
+            >Help?</a
+          >
+          <br /><a data-toggle="modal" href="#dragInfo" class="button"
+            >What's FR Dragons?</a
+          >
+          <br /><a data-toggle="modal" href="#humanoidInfo" class="button"
+            >What's Human/Gijinka?</a
+          >
+          <br /><a data-toggle="modal" href="#anthroInfo" class="button"
+            >What's Anthro?</a
+          >
+          <br /><a data-toggle="modal" href="#nonDragInfo" class="button"
+            >What's Non-FR Ferals?</a
+          >
+        </p>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <form class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-md-25">
+              <label for="country"
+                >I <strong>most</strong> prefer: &nbsp;</label
+              >
+            </div>
+            <div class="col-md-75">
+              <select id="recHighPref" name="recHighPref">
+                <option value="No Preference" selected="selected"
+                  >No Preference</option
+                >
+                <option value="FR Dragons">FR Dragons</option>
+                <option value="Human/Gijinka">Human/Gijinka</option>
+                <option value="Anthro">Anthro</option>
+                <option value="Non-FR Ferals">Non-FR Ferals</option>
+              </select>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-25">
+              <label for="country"
+                >I prefer: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label
+              >
+            </div>
+            <div class="col-md-75">
+              <select id="recMedPref" name="recMedPref">
+                <option value="No Preference" selected="selected"
+                  >No Preference</option
+                >
+                <option value="FR Dragons">FR Dragons</option>
+                <option value="Human/Gijinka">Human/Gijinka</option>
+                <option value="Anthro">Anthro</option>
+                <option value="Non-FR Ferals">Non-FR Ferals</option>
+              </select>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-25">
+              <label for="country"
+                >I <strong>least</strong> prefer: &nbsp;</label
+              >
+            </div>
+            <div class="col-md-75">
+              <select id="recLowPref" name="recLowPref">
+                <option value="No Preference" selected="selected"
+                  >No Preference</option
+                >
+                <option value="FR Dragons">FR Dragons</option>
+                <option value="Human/Gijinka">Human/Gijinka</option>
+                <option value="Anthro">Anthro</option>
+                <option value="Non-FR Ferals">Non-FR Ferals</option>
+              </select>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-25">
+              <label for="country">I do not want: &nbsp;</label>
+            </div>
+            <div class="col-md-75">
+              <select id="recNoAllow" name="recNoAllow">
+                <option value="No Preference" selected="selected"
+                  >No Preference</option
+                >
+                <option value="FR Dragons">FR Dragons</option>
+                <option value="Human/Gijinka">Human/Gijinka</option>
+                <option value="Anthro">Anthro</option>
+                <option value="Non-FR Ferals">Non-FR Ferals</option>
+              </select>
+            </div>
+          </div>
+          <br />
+          <div
+            class="d-flex justify-content-between container navBtns"
+            style="max-width: 970px;"
+          >
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-danger toggleDrawPrefForm"
+              >
+                Back
+              </button>
+            </div>
+            <div class="col my-auto">
+              3/7
+            </div>
+            <div class="d-flex justify-content-end">
+              <button
+                type="button"
+                class="btn btn-success justify-content-end toggleRecPrefForm"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="tierForm">
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>How much effort will you commit to your drawing this year?</h1>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <p align="left">
+          To alleviate the pressure on those with limited time, and to reassure
+          those that are planning to devote lots of time, there will be two
+          tiers.<br /><br />
+          <strong>Tier A</strong>: For this tier, you will be expected to
+          complete a full art piece. Show your recipient your best work, whether
+          it be through beautifully done shading, coloring, or both! There is no
+          requirement on doing a fullbody vs doing just a headshot, but we
+          expect your best effort in terms of technique.
+          <a data-toggle="modal" href="#tierAEx" class="button"
+            >Tier A Examples</a
+          ><br /><br />
+          <strong>Tier B</strong>: This low-stress tier is perfect for beginners
+          or those who may not have a lot of time to invest in the event. For
+          this tier, a basic sketch is all that is expected! If you would like
+          to add other additions like quick coloring or shading, then you can do
+          so as well.
+          <a data-toggle="modal" href="#tierBEx" class="button"
+            >Tier B Examples</a
+          >
+        </p>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <form class="row justify-content-center" style="max-width: 970px;">
+          <div class="row container justify-content-around">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="chosenTier"
+                id="tierA"
+                value="A"
+                checked
+              />
+              <label class="form-check-label" for="tierA">
+                Tier A
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="chosenTier"
+                id="tierB"
+                value="B"
+              />
+              <label class="form-check-label" for="tierB">
+                Tier B
+              </label>
+            </div>
+          </div>
+          <br />
+          <div
+            class="d-flex justify-content-between container navBtns"
+            style="max-width: 970px;"
+          >
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-danger toggleRecPrefForm"
+              >
+                Back
+              </button>
+            </div>
+            <div class="col my-auto">
+              4/7
+            </div>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-success toggleTierForm">
+                Next
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="backupSantaForm">
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>Would you like to be backup Santa this year?</h1>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <p align="left">
+          Backup Santas may be called on to do an additional piece of artwork in
+          the event that a recipient does not receive their art by Christmas.
+          Your help is greatly appreciated in making everyone's Christmas
+          special, thank you! Please remember there is no obligation to do so!
+        </p>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <form class="row justify-content-center" style="max-width: 970px;">
+          <div class="row container justify-content-center">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="backupSantaCheckbox"
+              />
+              <label class="form-check-label" for="backupSantaCheckbox"
+                >Yes, I would like to be a backup Santa this year!</label
+              >
+            </div>
+          </div>
+          <br />
+          <div
+            class="d-flex justify-content-between container navBtns"
+            style="max-width: 970px;"
+          >
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-danger toggleTierForm"
+              >
+                Back
+              </button>
+            </div>
+            <div class="col my-auto">
+              5/7
+            </div>
+            <div class="d-flex justify-content-end">
+              <button
+                type="button"
+                class="btn btn-success toggleBackupSantaForm"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="freeForm">
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>Any additional information for your Secret Santa?</h1>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <div class="md-form">
+          <label for="freeInfo">Additional Info for your Santa</label>
+          <textarea
+            id="freeInfo"
+            class="md-textarea form-control"
+            rows="5"
+            placeholder="Optional information that you want your Santa to know"
+          ></textarea>
+        </div>
+
+        <div class="container-fluid" style="max-width: 970px;">
+          <p align="center">
+            <small>
+              Note: BBCode is not supported here, so you'll have to add that
+              when you post to the forums!
+            </small>
+          </p>
+        </div>
+        <form class="row justify-content-center">
+          <br />
+          <div
+            class="d-flex justify-content-between container navBtns"
+            style="max-width: 970px;"
+          >
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-danger toggleBackupSantaForm"
+              >
+                Back
+              </button>
+            </div>
+            <div class="col my-auto">
+              6/7
+            </div>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-success toggleFreeForm">
+                Next
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--
+    <section id="referForm">
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>Did someone refer you?</h1>
+      </div>
+      <div class="container-fluid">
+        <p align="center">
+          Optional field if someone referred you, used for the
+          <a href="https://www1.flightrising.com/forums/cc/2762750/1"
+            >Gaoler Raffle</a
+          >! Leave blank if no one referred you.
+        </p>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <form class="row justify-content-center" style="max-width: 970px;">
+          <div class="row container justify-content-center">
+            <div class="col">
+              <input
+                type="text"
+                id="referer"
+                name="referer"
+                class="form-control"
+                placeholder="Username of Referer"
+              />
+            </div>
+          </div>
+          <br />
+          <div
+            class="d-flex justify-content-between container navBtns"
+            style="max-width: 970px;"
+          >
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-danger toggleFreeForm"
+              >
+                Back
+              </button>
+            </div>
+            <div class="col my-auto">
+              7/8
+            </div>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-success toggleReferForm">
+                Next
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    -->
+    <section id="subjectsForm">
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>Please add the subjects you want drawn</h1>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <p align="left">
+          Fill out the below fields for your subject. Pressing the "Add Another
+          Subject" button will create another subject form to fill out, up to a
+          <strong>maximum of five subjects</strong>. Completely blank forms will
+          be ignored, and you must have at least one subject.
+        </p>
+      </div>
+      <br />
+      <div class="container-fluid" style="max-width: 970px;">
+        <div id="subjectForm1">
+          <div class="form-group container-fluid" style="max-width: 970px;">
+            <h5>Subject 1</h5>
+            <label for="subjectName1">Subject Name:</label
+            ><input
+              type="text"
+              id="subjectName1"
+              name="subjectName1"
+              class="form-control"
+              placeholder="Subject Name"
+            />
+          </div>
+          <div class="form-group container-fluid" style="max-width: 970px;">
+            <label for="subjectImg1">Subject Reference Image:</label
+            ><input
+              type="url"
+              id="subjectImg1"
+              name="subjectImg1"
+              class="form-control"
+              placeholder="Link to image"
+            />
+          </div>
+          <br />
+          <!-- OPTIONS -->
+          <h5>
+            What type of art would you like for this character?
+          </h5>
+          <p>
+            Choose all types of art that apply to this subject.
+            <strong
+              >This is only used as a guideline for your Santa to determine how
+              to draw your subject.</strong
+            >
+            For example, if I wanted an anthro version or just a feral drawing
+            of my FR dragon, I could check "FR Dragon" and
+            "Anthropomorphic/Furry".
+          </p>
+          <div class="row">
+            <div class="container justify-content-center">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="frDragCB1"
+                />
+                <label class="form-check-label" for="frDragCB1"
+                  >FR Dragon
+                  <a data-toggle="modal" href="#dragInfo" class="button"
+                    >(?)</a
+                  ></label
+                >
+              </div>
+            </div>
+            <div class="container justify-content-center">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="feralOcCB1"
+                />
+                <label class="form-check-label" for="feralOcCB1"
+                  >Feral OC
+                  <a data-toggle="modal" href="#nonDragInfo" class="button"
+                    >(?)</a
+                  ></label
+                >
+              </div>
+            </div>
+            <div class="container justify-content-center">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gijPreDesCB1"
+                />
+                <label class="form-check-label" for="gijPreDesCB1"
+                  >FR Gijinka - Predesigned/Visual Reference
+                  <a data-toggle="modal" href="#gijPreInfo" class="button"
+                    >(?)</a
+                  ></label
+                >
+              </div>
+            </div>
+            <div class="container justify-content-center">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gijWritCB1"
+                />
+                <label class="form-check-label" for="gijWritCB1"
+                  >FR Gijinka - Written Description
+                  <a data-toggle="modal" href="#gijWriInfo" class="button"
+                    >(?)</a
+                  ></label
+                >
+              </div>
+            </div>
+            <div class="container justify-content-center">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gijNoDesCB1"
+                />
+                <label class="form-check-label" for="gijNoDesCB1"
+                  >FR Gijinka - No Description
+                  <a data-toggle="modal" href="#gijNoDInfo" class="button"
+                    >(?)</a
+                  ></label
+                >
+              </div>
+            </div>
+            <div class="container justify-content-center">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="humOC1" />
+                <label class="form-check-label" for="humOC1"
+                  >Human OC
+                  <a data-toggle="modal" href="#humanInfo" class="button"
+                    >(?)</a
+                  ></label
+                >
+              </div>
+            </div>
+            <div class="container justify-content-center">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="anthroCB1"
+                />
+                <label class="form-check-label" for="anthroCB1"
+                  >Anthropomorphic/Furry
+                  <a data-toggle="modal" href="#anthroInfo" class="button"
+                    >(?)</a
+                  ></label
+                >
+              </div>
+            </div>
+            <div class="container justify-content-center">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="otherHumCB1"
+                />
+                <label class="form-check-label" for="otherHumCB1"
+                  >Other Humanoid OC
+                  <a data-toggle="modal" href="#otherHumInfo" class="button"
+                    >(?)</a
+                  ></label
+                >
+              </div>
+            </div>
+          </div>
+          <!-- End options -->
+          <br />
+          <div class="container-fluid" style="max-width: 970px;">
+            <div class="md-form">
+              <label for="subjectFree1"
+                >Any additional notes for this subject</label
+              >
+              <textarea
+                id="subjectFree1"
+                class="md-textarea form-control"
+                rows="5"
+              ></textarea>
+            </div>
+          </div>
+          <div class="container-fluid" style="max-width: 970px;">
+            <p align="center">
+              <small>
+                Note: BBCode is not supported here, so you'll have to add that
+                when you post to the forums!
+              </small>
+            </p>
+          </div>
+        </div>
+        <br />
+        <div class="container-fluid" style="max-width: 970px;">
+          <div class="row justify-content-center">
+            <button
+              type="button"
+              class="btn btn-primary"
+              id="addSubjectBtn"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="You reached the maximum of five subjects"
+            >
+              Add Another Subject
+            </button>
+          </div>
+        </div>
+
+        <br />
+        <div
+          class="d-flex justify-content-between container navBtns"
+          style="max-width: 970px;"
+        >
+          <div class="col">
+            <button
+              type="button"
+              class="btn btn-outline-danger toggleFreeForm"
+            >
+              Back
+            </button>
+          </div>
+          <div class="col my-auto">
+            7/7
+          </div>
+          <div class="d-flex justify-content-end">
+            <button
+              type="button"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Please fill in at least one subject"
+              class="btn btn-success toggleSubjectsForm"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="completedForm">
+      <div class="container-fluid" style="max-width: 970px;">
+        <h1>You're all set!</h1>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <p align="left">
+          Copy your completed form below and paste it to the forums on our sign
+          up thread
+          <a href="https://www1.flightrising.com/forums/cc/2928940">HERE</a>,
+          and make any adjustments necessary! (We advise you <strong>not to change the
+          formatting of anything above the dividing line</strong> besides the Additional
+          Info field please!)
+        </p>
+      </div>
+      <div class="container-fluid" style="max-width: 970px;">
+        <div class="md-form">
+          <textarea
+            readonly
+            id="completeForm"
+            class="md-textarea form-control"
+            rows="10"
+            onclick="this.focus();this.select()"
+          ></textarea>
+        </div>
+        <div class="row justify-content-center">
+          <button type="button" class="btn btn-primary" id="copyBtn">
+            Copy
+          </button>
+        </div>
+        <form class="row justify-content-center">
+          <div
+            class="row navBtns container justify-content-center"
+            style="max-width: 970px;"
+          >
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-danger toggleSubjectsForm"
+              >
+                Back
+              </button>
+            </div>
+            <div class="d-flex justify-content-end">
+              <a href="https://www1.flightrising.com/forums/cc/2928940"><button
+                id="exitBtn"
+                type="button"
+                class="btn btn-success"
+                disabled
+              >
+                To the Forums
+              </button></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div
+      class="modal fade"
+      id="naughtyModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Uh oh.</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Hello, unfortunately, you seem to be on our naughty list. If you
+              believe this to be a mistake or would like further information,
+              please reach out to one of the organizers.<br />Thank you for your
+              understanding.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="userInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Where is this info?</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Go to your userpage and you will find the information as below:
+            </p>
+            <img
+              src="https://cdn.discordapp.com/attachments/503665292057116679/634992659714539520/Screen_Shot_2019-10-18_at_11.53.59_PM.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="rankInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">How does ranking work?</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Use the drop down menus next to each option and choose which one
+              fits your preferences. Every attempt is made to ensure that your
+              first choice (I most prefer) is what you are matched with. No
+              preference allows us to freely match you without restrictions
+              (except if you state what you do not want).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="humanoidInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What are Humans/Gijinkas?</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              This simply includes characters that have human proportions, have
+              human faces, and mostly human features (they may include some
+              non-human features such as horns). Gijinkas are human designs
+              based off FR dragons.<br /><br />Example:
+            </p>
+            <img style="padding: 3%;" src="http://i.imgur.com/fYuMq7X.png" />
+            <small>Credit: Fighting Polygon</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="dragInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What is an FR Dragon?</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              This is separated from non-FR ferals. Additionally, this category
+              does NOT include dragons that are not related to FR. Otherwise,
+              includes any art of FR Dragons (Coatls, Imperials, Gaolers,
+              etc).<br /><br />Example:
+            </p>
+            <img
+              style="padding: 3%;"
+              src="https://lh3.googleusercontent.com/-gOo5EgKdldQ/W2E3WBMORvI/AAAAAAAALSs/fcrvQ1bfk4ETSB0ieqZQbdqHQ8zWv0P7gCL0BGAYYCw/h512/2018-07-31.jpg"
+            />
+            <small>Credit: Eversnow</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="nonDragInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What is Non-FR Feral?</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              This is separated from FR dragons and includes dragon characters
+              that are not associated with FR. Other feral characters would
+              include animals like cats, dogs, mice, etc that strictly have
+              animalian proportions and features.<br /><br />Example:
+            </p>
+
+            <img
+              style="padding: 3%;"
+              src="https://cdn.discordapp.com/attachments/416523883651530752/516647770862387237/unknown.png"
+            />
+            <small>Credit: Lizzi</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="anthroInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What are anthros?</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              This is a category that was added last year based on the amount of
+              anthro artists we had in the past. Anthro characters are those with
+              human proportions, but have animalian faces and features.<br /><br />Example:
+            </p>
+            <img
+              style="padding: 3%;"
+              src="https://vignette.wikia.nocookie.net/zootopia/images/3/3e/Nick_Sly_Fox_Render.png/revision/latest?cb=20160419235513"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="gijPreInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Gijinka Predesigned Halp</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Gijinkas are FR dragons that are reimagined as humans. Choose this
+              option if you already have a design for your dragon, such as
+              Lizzi's clan leader
+              <a
+                href="https://flightrising.com/main.php?p=lair&id=73932&tab=dragon&did=17980335"
+                >Elise</a
+              >.
+            </p>
+            <img
+              style="padding: 3%;"
+              src="https://orig00.deviantart.net/a123/f/2017/266/c/c/lizzi_commish_small_by_monochromias-dbobc1q.png"
+            />
+            <small>Credit: Chromi</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gijWriInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Gijinka Written Description Halp</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Gijinkas are FR dragons that are reimagined as humans. Choose this
+              option if you have certain guidelines that you would like your
+              Gijinka to follow but otherwise has to be designed by your
+              Santa.<br />
+              Example: I would like her to have red hair, green eyes, etc
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gijNoDInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Gijinka No Description Halp</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Gijinkas are FR dragons that are reimagined as humans. Choose this
+              option if you do not have any guidelines that you would like your
+              Gijinka to follow, so it's 100% up to your Santa to design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="otherHumInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Halp</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Anything that is neither a human nor an anthro, but has human-like
+              proportions.
+            </p>
+            <img
+              style="padding: 3%;"
+              src="https://orig00.deviantart.net/dd5f/f/2017/290/d/4/darkv2_by_friedsnipe-dbqunok.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="humanInfo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What are Humans???</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Literally just a regular human :) <br /><br />
+              Oh my goodness it's 1am someone send help I'm d y i n g
+              It's once again 1am but a year later and im dying less because im used to it now 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="tierAEx"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Tier A Examples</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              style="padding: 3%;"
+              src="https://cdn.discordapp.com/attachments/367956474548322318/631362965135687691/unknown.png"
+            />
+            <img
+              style="padding: 3%;"
+              src="https://cdn.discordapp.com/attachments/503665292057116679/635028826820182016/maila600_by_friedsnipe-dcfxin1.png"
+            />
+            <img
+              style="padding: 3%;"
+              src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d5ad517e-1656-4feb-891c-04fd5a88a778/ddhz8vb-f2087963-882e-4f6b-a631-00db35dac2ad.png/v1/fill/w_1280,h_1440,q_80,strp/ricky_the_emerald_wolf_by_hexylotl_ddhz8vb-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQ0MCIsInBhdGgiOiJcL2ZcL2Q1YWQ1MTdlLTE2NTYtNGZlYi04OTFjLTA0ZmQ1YTg4YTc3OFwvZGRoejh2Yi1mMjA4Nzk2My04ODJlLTRmNmItYTYzMS0wMGRiMzVkYWMyYWQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.v7tk1rhTQTulAw9SDBxJqeFxi6JRHm3kmYuv6OXt9ZI"
+            />
+            <p>
+              <small>
+                Credits respectively: Hexlash, Lizzi, Hexlash
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="tierBEx"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Tier B Examples</h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img style="padding: 3%;" src="https://i.imgur.com/VNv3GhF.png" />
+
+            <img
+              style="padding: 3%;"
+              src="https://media.discordapp.net/attachments/503665292057116679/635025793420099595/DvaINPUVYAAz_9G.png"
+            />
+            <img
+              style="padding: 3%;"
+              src="https://cdn.discordapp.com/attachments/568166311687880704/635027821085065232/IMG_20191017_235500.jpg"
+            />
+            <img
+              style="padding: 3%;"
+              src="https://cdn.discordapp.com/attachments/503665292057116679/635030438242418698/120ea90f26a0753f2aa92c2eaba21777.png"
+            />
+            <p>
+              <small>
+                Credits respectively: <em>Anonymous</em>, Lizzi, Eversnow, Lizzi
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
